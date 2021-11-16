@@ -1,0 +1,56 @@
+### Post createTarea
+POST http://localhost:8000/api/createtarea
+content-type: application/json
+
+{
+    "email":"felipeleyton@live.cl",
+    "nombre" : "tarea 2", 
+    "descripcion" : "prueba tarea2" 
+}
+
+### Post deleteTarea
+POST http://localhost:8000/api/deletetarea
+content-type: application/json
+
+{
+    "email":"felipeleyton@live.cl",
+    "nombre" : "tarea 2"
+}
+
+
+### Post updateTarea
+POST http://localhost:8000/api/updatetarea
+content-type: application/json
+
+{
+    "email":"felipeleyton@live.cl",
+    "nombre" : "tarea 2", 
+    "descripcion" : "prueba tarea_2" 
+}
+
+### Post readTareas
+POST  http://localhost:8000/api/readtareas
+content-type: application/json
+
+{
+    "email":"felipeleyton@live.cl"
+}
+
+### Post createUser
+POST http://localhost:8000/api/createuser
+content-type: application/json
+
+{
+    "email": "felipeleyton@live.cl",
+    "fullName": "Felipe Cabrera",
+    "password": "1234"
+}
+
+### Post loginUser
+POST http://localhost:8000/api/loginUser
+content-type: application/json
+
+{
+    "email": "felipeleyton@live.cl",
+    "password": "1234"
+}
